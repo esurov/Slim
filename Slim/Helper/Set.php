@@ -208,7 +208,7 @@ class Set implements \ArrayAccess, \Countable, \IteratorAggregate
      * IteratorAggregate
      */
 
-    public function getIterator(): Traversable
+    public function getIterator(): \Traversable
     {
         return new \ArrayIterator($this->data);
     }

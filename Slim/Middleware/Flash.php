@@ -192,7 +192,7 @@ class Flash extends \Slim\Middleware implements \ArrayAccess, \IteratorAggregate
      * Iterator Aggregate: Get Iterator
      * @return \ArrayIterator
      */
-    public function getIterator(): Traversable
+    public function getIterator(): \Traversable
     {
         $messages = $this->getMessages();
 
